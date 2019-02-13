@@ -498,7 +498,8 @@ fig = go.Figure(data=data, layout=layout)
 iplot(fig)
 
 
-# From the above 3D plot, we can find that actually these clusters are not so good that they can seperate different kinds of food(0,1,2). All kinds of food are mixed with each other. Therefore, we need to find new clusters
+# From the above 3D plot, we can find that actually these clusters are not so good that they can seperate different kinds of 
+#food(0,1,2). All kinds of food are mixed with each other. Therefore, we need to find new clusters
 
 # ### Create New Clusters
 
@@ -826,7 +827,16 @@ iplot(fig)
 
 # ## Conclusion
 
-# 1.For people who want to lower their weight, they should eat less roasted and organic food. Also, they should consume fewer nuts, tea, candy chocolate, and ice cream. Certainly, they can find some kinds of food with lower calorie just as above clustering plot shows. For people dreaming of increasing muscles, they should ingest much more beef and various cheese. And for some office workers who want to get more energies, they can choose peanut, chocolate and organic food. These foods will help them perform better in their work.
+# 1.For people who want to lower their weight, they should eat less roasted and organic food. Also, they should consume fewer 
+   #nuts, tea, candy chocolate, and ice cream. Certainly, they can find some kinds of food with lower calorie just as above 
+   #clustering plot shows. For people dreaming of increasing muscles, they should ingest much more beef and various cheese. 
+   #And for some office workers who want to get more energies, they can choose peanut, chocolate and organic food. These 
+   #foods will help them perform better in their work.
 # 
-# 2.For patients who get diabetes, they should eat the food with normal levels of chemical element and energies but the lower level of fat, sugars, and carbohydrates, which is combined as ‘diabetes friendly’ in the plot. The suitable range of it can be [-19, 19] (to get ‘diabetes friendly’, you should multiply respective coefficients (eigenvectors) with original data). It means that anytime you get one kind of food, if the product of its contents in 100g and coefficients is in [-19, 19], then you can eat it. Also, for patients who get hypertension, [-2, 21] is the safe range of ‘hypertension friendly’. And the way of calculating it is the same as ‘diabetes friendly’.
+# 2.For patients who get diabetes, they should eat the food with normal levels of chemical element and energies but the lower 
+#level of fat, sugars, and carbohydrates, which is combined as ‘diabetes friendly’ in the plot. The suitable range of it can 
+#be [-19, 19] (to get ‘diabetes friendly’, you should multiply respective coefficients (eigenvectors) with original data). It
+#means that anytime you get one kind of food, if the product of its contents in 100g and coefficients is in [-19, 19], then you
+#can eat it. Also, for patients who get hypertension, [-2, 21] is the safe range of ‘hypertension friendly’. And the way of 
+#calculating it is the same as ‘diabetes friendly’.
 # 
